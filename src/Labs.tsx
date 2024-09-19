@@ -32,7 +32,22 @@ class Labs extends Component {
     <li>Item 6</li>
   </ol>
 
-<hr/>
+      <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+        <li>item6</li>
+      </ul>
+  <hr/>
+
+    <h2>Images</h2>
+    <p>Images using image link:</p>
+    <img width={500} src="https://images.unsplash.com/photo-1726533815259-8fe320ac2493?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    <p>Image in local</p>
+    <img src="NEU.jpg" width={500} alt="" />
+  <hr />
   <h2>Tables</h2>
 
   <table border={1} width="100%">	 
