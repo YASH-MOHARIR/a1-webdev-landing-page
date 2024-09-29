@@ -39,8 +39,7 @@
  .wd-bg-color-gray {
     background-color: lightgray;
  }
- 
- /* // borders  */
+  
  .wd-border-fat {
     border-width: 20px 30px 20px 30px; }
  .wd-border-thin {
@@ -71,8 +70,7 @@
       .wd-padding-fat {
         padding: 50px;
       }
-      
-      src/Labs/Lab2/index.css
+       
 .wd-margin-bottom {
   margin-bottom: 50px;
 }
