@@ -17,6 +17,7 @@ function App() {
       <a href='#/Labs/A2/Week3'>Labs A2 - Week 3</a>  <br/>
       <a href='#/Labs/A2/Week4'>Labs A2 - Week 4</a>  <br/>
       <a href='https://main--kanbas-yash-moharir.netlify.app/'>Kanbas - Week 2</a>  <br/>
+      <a href='https://a2--kanbas-yash-moharir.netlify.app/Account/Signin'>Kanbas (Assignment 2) - Week 3 + 4</a> <br/>
       <a href='https://github.com/YASH-MOHARIR/Kanbas-webdev-project-Yash-Moharir'>Github Repository - Kanbas</a> <br/>
       <a href='https://github.com/YASH-MOHARIR/a1-webdev-landing-page'>Github Repository - Landing Page + Labs</a>
 
