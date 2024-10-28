@@ -1,1 +1,24 @@
- 
+ .active{
+    background-color: greenyellow;
+    color: green;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+ }
+
+ .links{
+   display: flex;
+   justify-content: space-between; 
+ }
+
+ .lab-links, .kanbas-links, .repo-links{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: auto;
+ }
+
+ .lab-link{
+   margin: 10px;
+   transition: all ease 0.5s;
+ }
