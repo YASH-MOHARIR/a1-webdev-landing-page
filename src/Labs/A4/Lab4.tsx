@@ -64,14 +64,14 @@ export default function Lab4() {
 
       <div id="wd-click-event">
         <h2>Click Event</h2>
-        <button className="btn btn-outline-info" onClick={hello} id="wd-hello-world-click">
+        <button className="btn btn-outline-info mx-3" onClick={hello} id="wd-hello-world-click">
           Hello World!
         </button>
-        <button className="btn btn-outline-info" onClick={() => lifeIs("Good!")} id="wd-life-is-good-click">
+        <button className="btn btn-outline-info mx-3" onClick={() => lifeIs("Good!")} id="wd-life-is-good-click">
           Life is Good!
         </button>
         <button
-        className="btn btn-outline-info"
+        className="btn btn-outline-info mx-3"
           onClick={() => {
             hello();
             lifeIs("Great!");
@@ -159,11 +159,11 @@ export default function Lab4() {
         <button className="btn btn-success" onClick={addElement}>
           Add Element
         </button>
-        <ul>
+        <ul className="list-group">
           {array.map((item, index) => (
-            <li key={index}>
+            <li className="list-group-item mt-4" key={index}>
               {item}
-              <button className="btn btn-danger" onClick={() => deleteElement(index)} id="wd-delete-element-click">
+              <button className="btn btn-danger mx-4" onClick={() => deleteElement(index)} id="wd-delete-element-click">
                 Delete
               </button>
             </li>
