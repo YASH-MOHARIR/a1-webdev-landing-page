@@ -9,6 +9,7 @@ import Lab3 from "./Labs/A3/Lab3.tsx";
 import Lab4 from "./Labs/A4/Lab4.tsx";
 import { Provider } from "react-redux";
 import store from "./Labs/Store/Index.tsx";
+import Lab5 from "./Labs/A5/Lab5.tsx";
 
 function App() {
   const { pathname } = useLocation();
@@ -37,6 +38,9 @@ function App() {
           <Link to={"/Labs/A4"} className={`lab-link ${pathname.includes("A4") ? "active" : ""}`}>
             Labs A4 - Week 6
           </Link> 
+          <Link to={"/Labs/A5"} className={`lab-link ${pathname.includes("A5") ? "active" : ""}`}>
+            Labs A5 - Week 8
+          </Link> 
         </div>
         <hr />
         <div className="lab-links">
@@ -46,6 +50,7 @@ function App() {
           <a href="https://a2--kanbas-yash-moharir.netlify.app/">Kanbas ( Assignment 2 ) - Week 3 + 4</a>
           <a href="https://a3--kanbas-yash-moharir.netlify.app/">Kanbas ( Assignment 3 ) - Week 5 + 6</a>
           <a href="https://a4--kanbas-yash-moharir.netlify.app/">Kanbas ( Assignment 4 ) - Week 5 + 6</a>
+          <a href="https://a5--kanbas-yash-moharir.netlify.app/">Kanbas ( Assignment 4 ) - Week 5 + 6</a>
         </div>
         <hr />
         <div className="repo-links">
@@ -64,6 +69,7 @@ function App() {
           <Route path="/Labs/A2/Week4" element={<Lab2W2 />} />
           <Route path="/Labs/A3" element={<Lab3 />} />
           <Route path="/Labs/A4" element={<Lab4 />} />
+          <Route path="/Labs/A5" element={<Lab5 />} />
         </Routes>
       </div>
     </div>
