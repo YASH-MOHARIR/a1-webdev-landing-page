@@ -18,6 +18,17 @@ export default function PathParameters() {
          href={`${REMOTE_SERVER}/lab5/subtract/${a}/${b}`}>
          Substract {a} - {b}
       </a>
+      
+      <a className="btn btn-danger me-2" id="wd-path-parameter-subtract" 
+         href={${REMOTE_SERVER}/lab5/multiply/${a}/${b}}>
+         Multiply {a}*{b}
+      </a>
+
+      <a className="btn btn-danger me-2" id="wd-path-parameter-subtract" 
+         href={${REMOTE_SERVER}/lab5/divide/${a}/${b}}>
+         Divide {a}/{b}
+      </a>
+
       <hr />
     </div>
   );
